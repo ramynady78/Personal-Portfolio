@@ -140,7 +140,7 @@ const projects: Project[] = [
 },
 {
   id: "rashed-store",
-  title: "Rashed Store Front-End",
+  title: "Rashed Store",
   image: "/images/projects/rashed-store.png",
   link: "https://rashed-store.vercel.app",
   repo: "https://github.com/ramynady78/Rashed-store",

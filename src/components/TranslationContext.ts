@@ -1,13 +1,14 @@
 import React, { createContext, useContext, useState } from "react";
 import type { ReactNode } from "react";
 import { translations } from "../i18n/index";
+import type { Translation } from "../types/translation";
 
 type Lang = "en" | "ar" | "ru";
 
 interface TranslationContextProps {
   lang: Lang;
   setLang: (lang: Lang) => void;
-  t: Record<string, string>;
+  t: Translation;
 }
 
 const TranslationContext = createContext<TranslationContextProps>({} as TranslationContextProps);
@@ -22,7 +23,7 @@ export const TranslationProvider = ({ children }: ProviderProps) => {
   const contextValue: TranslationContextProps = {
     lang,
     setLang,
-    t: translations[lang],
+    t: translations[lang] as Translation,
   };
 
   return React.createElement(

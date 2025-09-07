@@ -29,12 +29,22 @@ export const SkillsDisplay: React.FC<SkillsDisplayProps> = ({
   onShowMore,
   showMoreText = 'View All Skills'
 }) => {
-  const [showAll, setShowAll] = useState(false);
+  const [showAll] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
 
-  //
+  
   const {t} = useTranslation();
-  // Get all skills flattened
+  
+  type SkillCategory = 
+  | "frontend"
+  | "backend"
+  | "database"
+  | "security"
+  | "tools"
+  | "csFundamentals"
+  | "other";
+
+
   const allSkills = Object.entries(skills).flatMap(([category, categorySkills]) => 
     categorySkills.map(skill => ({ ...skill, category }))
   );
@@ -49,7 +59,7 @@ export const SkillsDisplay: React.FC<SkillsDisplayProps> = ({
     ? filteredSkills.slice(0, maxItems)
   : filteredSkills;
 
-  const categories = [
+  const categories:SkillCategory[] = [
     "frontend",
     "backend",
     "database",
@@ -123,7 +133,7 @@ export const SkillsDisplay: React.FC<SkillsDisplayProps> = ({
                     </span>
                   </div>
                   <p className="skill-description">{skill.usedIn}</p>
-                  <span className="skill-category">{t.skills_categories[skill.category]}</span>
+                  <span className="skill-category">{t.skills_categories[skill.category as SkillCategory]}</span>
                 </>
               )}
             </div>

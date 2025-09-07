@@ -8,7 +8,6 @@ import { getSkillIcon } from "../utils/skillIcons";
 
 
 
-
 export const ProjectDetails: React.FC = () => {
     const { id } = useParams();
     const project = projects.find(p => p.id === id);

@@ -161,6 +161,7 @@
 
   "projects": {
     "boost-me": {
+      "title": "BoostMe",
       "description": "BoostMe is a comprehensive productivity web application that helps users manage their tasks, track habits, and stay focused using the Pomodoro technique. It features user authentication, a full todo list management system, a habit tracker with streak calculation, and a Pomodoro timer integrated with tasks.",
       "overview": "BoostMe allows users to register, verify email, manage todos, track habits, and use a Pomodoro timer for focused work sessions. The application includes a responsive dashboard, weekly habit tracking, task filtering, customizable Pomodoro sessions, and a quote banner. It is built with a modern tech stack including React, Redux Toolkit, React Router, React Query, Node.js, Express.js, and MongoDB, offering a seamless and interactive productivity experience.", 
       "features": [
@@ -172,6 +173,7 @@
       "role": "Fullstack Developer"
     },
     "english-test-app": {
+    "title": "English Test App",
     "description": "English Test App is an interactive platform designed to help users assess and improve their English skills through structured tests in reading and listening.",
     "overview": "The app offers different test types including Quick, Standard, and Advanced tests with varied durations and question counts. It provides detailed information about each test, an About Us page, and future plans for progress tracking and vocabulary practice. Built with React, Redux, and Bootstrap, and deployed on Vercel.",
     "features": [
@@ -184,6 +186,7 @@
     "role": "Frontend Developer"
     },
     "study-hub": {
+      "title":"Study Hub",
       "description": "Study Hub is a web-based learning platform designed to facilitate online education by providing structured course management and a user-friendly interface.",
       "overview": "The platform allows students to explore available courses, view detailed descriptions, and engage with structured learning content. It includes a responsive design for better accessibility, scalable architecture for future growth, and essential pages such as Home, All Courses, and Course Details. Built with React, Redux, Bootstrap, and Node.js, Study Hub delivers a seamless online learning experience.",
       "features": [
@@ -196,6 +199,7 @@
       "role": "Frontend Developer"
     },
     "landing-page-example": {
+    "title":"Landing Page Example",
     "description": "This project is a demo landing page created for portfolio purposes, showcasing modern design and lead generation features for businesses.",
     "overview": "The landing page is designed for small and medium businesses, combining responsive layout, easy navigation, interactive FAQ, sections with benefits, pricing, testimonials, and smooth animations. It is built with HTML, CSS, and JavaScript with optimized images for fast loading.",
     "features": [
@@ -209,6 +213,7 @@
     "role": "Frontend Developer"
     },
     "currency-converter": {
+    "title":"Currency Converter with API",
     "description": "Currency Converter is a simple and interactive web application that allows users to convert currencies in real time using live exchange rates fetched from an external API.",
     "overview": "The application provides real-time currency conversion with a user-friendly and responsive interface. Users can select currencies, input an amount, and instantly see the converted value without refreshing the page. Built with HTML, CSS, and JavaScript, it ensures smooth performance across devices.",
     "features": [
@@ -220,6 +225,7 @@
     "role": "Frontend Developer"
     },
     "plant-store": {
+    "title":"plant-store",
     "description": "Plant Store App is a multilingual e-commerce web application that allows users to explore, favorite, and purchase plants with a seamless shopping experience.",
     "overview": "The Plant Store App provides an easy-to-use and multilingual shopping platform for plant lovers. It supports English, Russian, and Arabic, offering features such as plant browsing, favorites management, cart functionality, and secure payment. The responsive interface ensures smooth navigation across all devices.",
     "features": [
@@ -232,6 +238,7 @@
     "role": "Frontend Developer"
     },
     "tic-tac-toe": {
+    "title":"Tic Tac Toe Game",
     "description": "Tic Tac Toe Game is an interactive two-player web game with customizable symbols and a score-tracking system for continuous rounds.",
     "overview": "The game allows two players to compete by placing their chosen symbols on a 3x3 grid. Players can select custom symbols or use the default 'X' and 'O'. Scores are updated after each round, encouraging ongoing competition. The game board resets for new rounds while retaining player scores. Built with HTML, CSS, and JavaScript, and hosted on Vercel.",
     "features": [
@@ -243,6 +250,7 @@
     "role": "Frontend Developer"
     },
     "rashed-store": {
+    "title":"Rashed Store",
     "description": "Rashed Store Front-End is a simple online store interface built with HTML, CSS, and JavaScript. It demonstrates the design and structure of a typical e-commerce website without backend functionality.",
     "overview": "The project showcases a front-end e-commerce layout with product listings, detail pages, a shopping cart, and favorite items. It is responsive across devices and provides an intuitive shopping experience. Since it is front-end only, no real data storage or backend integration is included.",
     "features": [
@@ -255,6 +263,7 @@
     "role": "Frontend Developer"
     },
     "bookmarks-manager": {
+    "title":"Bookmarks Manager",
     "description": "Bookmarks Manager is a simple web-based application built with HTML, CSS, and JavaScript. It allows users to save, organize, edit, and delete bookmarks using categories, all stored in the browser's localStorage.",
     "overview": "The application provides a clean and responsive interface to manage bookmarks. Users can add bookmarks with a title, URL, and category, filter by category, edit existing bookmarks, and delete them. All data is persisted locally in the browser, requiring no backend.",
     "features": [

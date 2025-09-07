@@ -5,17 +5,28 @@ import { Link } from "react-router";
 
 
 interface ProjectSectionProps {
-    initialVisible?: number; 
-    showHeader?:boolean;
-    filteredProjects?:any;
+  initialVisible?: number; 
+  showHeader?:boolean;
+  filteredProjects?:any;
 };
+
+interface Project {
+  id: number;
+  title: string;
+  image?: string;
+  finished: boolean;
+  skills: string[];
+  link: string;
+  repo: string;
+}
+
 export const ProjectsSection: React.FC<ProjectSectionProps> = ({initialVisible =3 ,showHeader= false , filteredProjects=projects}) => {
   const { t , lang} = useTranslation();
-  const [visibleCards, setVisibleCards] = useState<boolean[]>([false, false, false]);
+  const [, setVisibleCards] = useState<boolean[]>([false, false, false]);
   const sectionRef = useRef<HTMLElement>(null);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  const displayedProjects = filteredProjects.slice(0, initialVisible);
+  const displayedProjects:Project[] = filteredProjects.slice(0, initialVisible);
   const truncateDescription = (text: string, maxLength: number = 80) => {
     if (text.length <= maxLength) return text;
     return text.substr(0, maxLength).trim() + "...";
@@ -74,7 +85,7 @@ export const ProjectsSection: React.FC<ProjectSectionProps> = ({initialVisible =
       </div>}
 
       <div className="projects-preview-grid">
-        {displayedProjects.map((project, index) => (
+        {displayedProjects.map((project:Project) => (
           <div key={project.id} className="project-card">
             <div className="card-image-container">
               <img 
