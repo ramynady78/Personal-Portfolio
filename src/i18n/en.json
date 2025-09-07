@@ -1,0 +1,275 @@
+{
+  "my_name": "Ramy Nady",
+  "home": "Home",
+  "about": "About",
+  "skills": "skills",
+  "portfolio": "Portfolio",
+  "contact": "Contact",
+  "greeting": "Hello there!",
+  "i":"I'm",
+  "title": "FullStack Developer",
+  "description": "Crafting <span class='highlight-word'>responsive</span>, <span class='highlight-word'>interactive</span>, and <span class='highlight-word'>modern</span> web experiences. Passionate about React, TypeScript, and creating exceptional UI/UX that users love.",
+  "buttons": {
+    "talk": "Let's Talk",
+    "download_cv": "Download CV",
+    "view_work": "View Work"
+  },
+  "socials": {
+    "connect": "Connect with me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram"
+  },
+  "status": "Available for work",
+  "myProjects":"Featured Projects",
+  "view_all_btn":"View All Work",
+  "details_btn":"Details",
+  "latestWork": "Latest work and creative solutions",
+
+  "project-info": "Project Info",
+  "role": "ROLE",
+  "completed": "Completed",
+  "technologies": "Technologies",
+  "view-code": "View code",
+  "live-demo": "Live Demo",
+  "project-overview": "Project Overview",
+  "technologies-used": "Technologies Used",
+  "key-features": "Key Features",
+  "back-to-projects": "Back to Projects",
+  "launch-project": "Launch Project",
+  "view-source": "View Source",
+  "core_technologies": "Core Technologies",
+  "view_all_skills": "View All Skills",
+  "contact_me": "Contact Me",
+  "question_or_work_together": "Have a question or want to work together? I'd love to hear from you.",
+  "about_me": "About Me",
+  "full_stack_description": "I’m a passionate Full Stack Engineer who enjoys building complete web applications using <strong>React</strong> and <strong>TypeScript</strong> on the frontend, and <strong>Node.js</strong> with <strong>PostgreSQL</strong> on the backend. I love solving complex problems and continuously learning new technologies to improve my craft.",   "continuous_learning": "I'm constantly learning new technologies and best practices to create efficient, scalable, and user-friendly solutions.",
+  "learn_more": "Learn More About Me",
+  "quick_links": "Quick Links",
+  "connect_with_me": "Connect With Me",
+  "city_country": "Yekaterinburg, Russia",
+  "rights": "2025 Ramy Nady. All rights reserved.",
+  "phone_number":"+7 (982) 728 86-14",
+  
+  "typed_text":"Passionate developer crafting digital experiences with modern technologies. I believe in creating solutions that make a difference. In my free time, I enjoy reading, which helps me expand knowledge and spark new ideas.",
+  "my_story": "My Story",
+  "story_paragraph_1": "Hi there! I'm <span className='highlight'>Ramy</span>, a dedicated software developer with a passion for creating innovative web solutions. My journey in programming started several years ago, and since then, I've been constantly learning and evolving with the ever-changing tech landscape.",
+  "story_paragraph_2": "I specialize in <span className='highlight'>full-stack development</span>, with particular expertise in React, Node.js, and modern web technologies. I love tackling complex problems and turning ideas into reality through clean, efficient code.",
+  "story_paragraph_3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I also spend time <span className='highlight reading-highlight'>📚 reading</span> about technology, psychology, and self-development.",
+  "story_paragraph_4": "My goal is to build applications that not only meet technical requirements but also provide exceptional user experiences. I'm always excited to take on new challenges and work with teams that share the same passion for creating amazing digital products.",
+  "years_experience": "Years Experience",
+  "languages": "Languages (EN, RU, AR)",
+  "projects_word": "Projects",
+  "skills_section": {
+    "frontend": "Frontend",
+    "backend": "Backend & Database",
+    "tools": "Tools & Others",
+    "soft": "Soft Skills",
+    "frontend_skills": ["React.js", "TypeScript & JavaScript", "HTML5 & CSS3", "BootStrap", "Redux & Context API", "MobX", "Responsive Design"],
+    "backend_skills": ["Node.js & Express", "RESTful APIs", "Authentication & Security", "Server Architecture", "MongoDB & PostgreSQL"],
+    "tools_skills": ["Git & GitHub", "Testing", "Vite", "Python", "Excel"],
+    "soft_skills": ["Problem Solving", "Team Collaboration", "Project Management", "Communication", "Critical Thinking", "Continuous Learning"]
+  },
+  "my_journey": "My Journey",
+  "journey_items": [
+    {
+      "title": "The Beginning",
+      "date": "2022",
+      "content": "Enrolled in Software Engineering and started with CS50, learning the basics of computer science and problem-solving. Also studied C# at university, gaining an understanding of OOP principles."
+    },
+    {
+      "title": "Finding My Path",
+      "date": "2023",
+      "content": "Explored Python by practicing web scraping and building small Telegram bots. This stage helped me discover my real passion for programming and practical coding."
+    },
+    {
+      "title": "The Big Leap",
+      "date": "2024",
+      "content": "A transformative year: mastered Frontend with HTML, CSS, and JavaScript, then moved to React.js to build modern applications. Strengthened problem-solving with Algorithms & Data Structures, and entered the Backend world with Node.js and MongoDB to create full-stack applications."
+    },
+    {
+      "title": "Maturity & Expansion",
+      "date": "2025",
+      "content": "Focused on advanced projects with scalability and user experience in mind. Worked in teams, shared knowledge, and kept growing not only through coding but also by reading about technology and self-development."
+    },
+    {
+      "title": "The Future",
+      "date": "2026",
+      "content": "On track to graduate in 2026 as a Full Stack Software Engineer, with strong academic knowledge and a diverse portfolio of real-world projects."
+    },
+    {
+      "title": "Professional Growth",
+      "date": "2024 - Present",
+      "content": "Currently working on cutting-edge projects with modern technologies. Focused on creating scalable applications and mentoring other developers. Always learning and adapting to new technologies."
+    }
+  ],
+  "currently_exploring": "Currently Exploring",
+  "reading_list": "📚 Reading List",
+  "reading_list_content": "Technology trends, Psychology, Self-development, and Software Architecture",
+  "tech_stack": "🔧 Tech Stack",
+  "tech_stack_content": "Advanced React patterns, Microservices, Cloud deployment, and Performance optimization",
+  "growth_areas": "🌱 Growth Areas",
+  "growth_areas_content": "Leadership skills, System design, and Contributing to open-source projects",
+  "skills_subtitle":"Crafting Digital Excellence Through Code",
+  "skills_description":"Explore my technical capabilities and professional expertise across various technologies, frameworks, and development practices that drive innovative solutions",
+  "skills_categories":{
+    "all": "All",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "security": "Security",
+    "tools": "Tools",
+    "csFundamentals": "CS Fundamentals",
+    "other": "Others"
+  },
+
+  "contact_subtitle": "Let's work together on your next project",
+  "sendAMessage": "Send a message",
+  "getInTouch": "Get in Touch",
+  "getInTouchSubtitle": "Feel free to reach out through any of these channels",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send Message",
+  "sending": "Sending...",
+  "success": "Message sent successfully!",
+  "error": "Failed to send message. Please try again.",
+  "namePlaceholder": "Enter your name",
+  "emailPlaceholder": "Enter your email address",
+  "subjectPlaceholder": "Enter subject",
+  "messagePlaceholder": "Enter your message here...",
+  "nameError": "Name is required",
+  "emailError": "Valid email is required",
+  "subjectError": "Subject is required",
+  "messageError": "Message is required",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone",
+  "linkedinLabel": "LinkedIn",
+  "githubLabel": "GitHub",
+  "telegramLabel": "Telegram",
+
+  "my_projects":"My Projects",
+  "projects_subtitle": "Explore my portfolio of projects, showcasing skills, creativity, and modern technologies.",
+  "years":"Years",
+  "sort_by":"Sort by",
+  "newest":"Newest First",
+  "oldest":"Oldest First",
+  "reset":"Reset",
+  "show":"Showing",
+  "of":"of",
+
+  "projects": {
+    "boost-me": {
+      "description": "BoostMe is a comprehensive productivity web application that helps users manage their tasks, track habits, and stay focused using the Pomodoro technique. It features user authentication, a full todo list management system, a habit tracker with streak calculation, and a Pomodoro timer integrated with tasks.",
+      "overview": "BoostMe allows users to register, verify email, manage todos, track habits, and use a Pomodoro timer for focused work sessions. The application includes a responsive dashboard, weekly habit tracking, task filtering, customizable Pomodoro sessions, and a quote banner. It is built with a modern tech stack including React, Redux Toolkit, React Router, React Query, Node.js, Express.js, and MongoDB, offering a seamless and interactive productivity experience.", 
+      "features": [
+      "Authentication System: User registration, login, email verification with random code, JWT-based authentication, password encryption with bcrypt",
+      "Todo List: Create tasks with title, due date, status, description; Edit, delete, view task details; Filter tasks by status and date; Responsive task management interface",
+      "Habit Tracker: Weekly calendar view, add/edit/delete habits, streak calculation, progress tracking, frequency settings (daily, weekly, monthly), habits hide after goal completion",
+      "Pomodoro Timer: Three session types (Focus, Short Break, Long Break), customizable default time, audio notifications, task integration, session history, quote banner showing random quotes"
+    ],
+      "role": "Fullstack Developer"
+    },
+    "english-test-app": {
+    "description": "English Test App is an interactive platform designed to help users assess and improve their English skills through structured tests in reading and listening.",
+    "overview": "The app offers different test types including Quick, Standard, and Advanced tests with varied durations and question counts. It provides detailed information about each test, an About Us page, and future plans for progress tracking and vocabulary practice. Built with React, Redux, and Bootstrap, and deployed on Vercel.",
+    "features": [
+      "Quick Test: 15 minutes, 10 reading and 10 listening questions",
+      "Standard Test: 50 minutes, 30 reading and 30 listening questions",
+      "Advanced Test (Coming Soon): 90 minutes, 50 reading and 50 listening questions",
+      "Test Details Page: Overview of each test format",
+      "About Us Page: Information about the purpose and creators"
+    ],
+    "role": "Frontend Developer"
+    },
+    "study-hub": {
+      "description": "Study Hub is a web-based learning platform designed to facilitate online education by providing structured course management and a user-friendly interface.",
+      "overview": "The platform allows students to explore available courses, view detailed descriptions, and engage with structured learning content. It includes a responsive design for better accessibility, scalable architecture for future growth, and essential pages such as Home, All Courses, and Course Details. Built with React, Redux, Bootstrap, and Node.js, Study Hub delivers a seamless online learning experience.",
+      "features": [
+        "Home Page: Central entry point to the platform",
+        "All Courses Page: Browse and explore available courses with detailed descriptions",
+        "Course Details Page: View detailed course information",
+        "User-Friendly Interface: Clean and responsive design",
+        "Scalable Architecture: Built to support growth and future enhancements"
+      ],
+      "role": "Frontend Developer"
+    },
+    "landing-page-example": {
+    "description": "This project is a demo landing page created for portfolio purposes, showcasing modern design and lead generation features for businesses.",
+    "overview": "The landing page is designed for small and medium businesses, combining responsive layout, easy navigation, interactive FAQ, sections with benefits, pricing, testimonials, and smooth animations. It is built with HTML, CSS, and JavaScript with optimized images for fast loading.",
+    "features": [
+      "Responsive design compatible with all devices",
+      "Fixed header with mobile menu",
+      "Interactive FAQ with collapsible answers",
+      "Sections for benefits, pricing, and client testimonials",
+      "Smooth animations and hover effects",
+      "Optimized images for faster loading"
+    ],
+    "role": "Frontend Developer"
+    },
+    "currency-converter": {
+    "description": "Currency Converter is a simple and interactive web application that allows users to convert currencies in real time using live exchange rates fetched from an external API.",
+    "overview": "The application provides real-time currency conversion with a user-friendly and responsive interface. Users can select currencies, input an amount, and instantly see the converted value without refreshing the page. Built with HTML, CSS, and JavaScript, it ensures smooth performance across devices.",
+    "features": [
+      "Real-Time Conversion: Fetches live exchange rates from an API",
+      "User-Friendly Interface: Simple and intuitive design for easy use",
+      "Responsive Design: Works seamlessly on desktop and mobile devices",
+      "Dynamic Updates: Conversion results update instantly without page refresh"
+    ],
+    "role": "Frontend Developer"
+    },
+    "plant-store": {
+    "description": "Plant Store App is a multilingual e-commerce web application that allows users to explore, favorite, and purchase plants with a seamless shopping experience.",
+    "overview": "The Plant Store App provides an easy-to-use and multilingual shopping platform for plant lovers. It supports English, Russian, and Arabic, offering features such as plant browsing, favorites management, cart functionality, and secure payment. The responsive interface ensures smooth navigation across all devices.",
+    "features": [
+      "Multilingual Support: Switch between English, Russian, and Arabic",
+      "User-Friendly Interface: Intuitive and easy to navigate",
+      "Favorites Management: Save, view, and remove favorite plants",
+      "Shopping Cart: Review, update, and manage selected plants before checkout",
+      "Secure Payment: Enter payment details and confirm purchases safely"
+    ],
+    "role": "Frontend Developer"
+    },
+    "tic-tac-toe": {
+    "description": "Tic Tac Toe Game is an interactive two-player web game with customizable symbols and a score-tracking system for continuous rounds.",
+    "overview": "The game allows two players to compete by placing their chosen symbols on a 3x3 grid. Players can select custom symbols or use the default 'X' and 'O'. Scores are updated after each round, encouraging ongoing competition. The game board resets for new rounds while retaining player scores. Built with HTML, CSS, and JavaScript, and hosted on Vercel.",
+    "features": [
+      "Two-Player Mode: Play against a friend in classic Tic Tac Toe",
+      "Custom Symbols: Choose your own symbols or use 'X' and 'O'",
+      "Score Tracking: Player scores update automatically after each win",
+      "New Game Rounds: Reset the board and keep playing with retained scores"
+    ],
+    "role": "Frontend Developer"
+    },
+    "rashed-store": {
+    "description": "Rashed Store Front-End is a simple online store interface built with HTML, CSS, and JavaScript. It demonstrates the design and structure of a typical e-commerce website without backend functionality.",
+    "overview": "The project showcases a front-end e-commerce layout with product listings, detail pages, a shopping cart, and favorite items. It is responsive across devices and provides an intuitive shopping experience. Since it is front-end only, no real data storage or backend integration is included.",
+    "features": [
+      "Product Listings: Browse products with images, names, and prices",
+      "Product Detail Pages: View detailed information about each product",
+      "Shopping Cart: Add, view, and update items (front-end only)",
+      "Favorites: Mark and manage favorite products",
+      "Responsive Design: Works on desktop, tablet, and mobile"
+    ],
+    "role": "Frontend Developer"
+    },
+    "bookmarks-manager": {
+    "description": "Bookmarks Manager is a simple web-based application built with HTML, CSS, and JavaScript. It allows users to save, organize, edit, and delete bookmarks using categories, all stored in the browser's localStorage.",
+    "overview": "The application provides a clean and responsive interface to manage bookmarks. Users can add bookmarks with a title, URL, and category, filter by category, edit existing bookmarks, and delete them. All data is persisted locally in the browser, requiring no backend.",
+    "features": [
+      "Add new bookmarks with title, URL, and category",
+      "Organize bookmarks by category",
+      "Filter bookmarks by category",
+      "Edit existing bookmarks (title, URL, category)",
+      "Delete bookmarks individually",
+      "Data persistence using localStorage",
+      "Responsive and intuitive UI",
+      "Category suggestions for easy organization"
+    ],
+    "role": "Frontend Developer"
+    }
+  }
+}
+
+

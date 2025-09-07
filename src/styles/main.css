@@ -1,0 +1,82 @@
+:root {
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f8fafc;
+  --color-text: #1e293b;
+  --color-text-secondary: #64748b;
+  --color-accent: #3b82f6;
+  --color-accent-hover: #2563eb;
+  --color-border: #e2e8f0;
+  --color-border-hover: #cbd5e1;
+  --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --border-radius: 8px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --home-bg: linear-gradient(135deg, #4a90e2, #357ab8);
+  --overview-bg: linear-gradient(135deg, #50e3c2, #34c2a4);
+  --technologies-bg: linear-gradient(135deg, #9013fe, #6a0dad);
+  --features-bg: linear-gradient(135deg, #ff6b81, #e84118);
+  --slider-bg: linear-gradient(135deg, #ffa94d, #f76707);
+  --icon-color: #ffffff;
+
+  --success: #22c55e;       
+  --success-hover: #16a34a;
+
+  --email-color: #EA4335;     
+  --phone-color: #34A853;   
+  --linkedin-color: #0077B5;  
+  --github-color: #181717;   
+  --telegram-color: #26A5E4;  
+  --vk-color: #0077FF;
+  --whatsapp-color:#25D366;  
+  
+  --nav-bar-height:80px;
+}
+
+.dark {
+    --color-bg: #0f172a;
+    --color-bg-secondary: #1e293b;
+    --color-text: #f1f5f9;
+    --color-text-secondary: #94a3b8;
+    --color-accent: #60a5fa;
+    --color-accent-hover: #3b82f6;
+    --color-border: #334155;
+    --color-border-hover: #475569;
+    --box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    
+    --icon-color: #f1f1f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-family);
+    transition: var(--transition);
+    line-height: 1.6;
+}
+
+.size-md {
+  width: 40px; 
+  height: 40px;
+  font-size: 1rem;
+}
+
+.size-lg {
+  width: 48px;   
+  height: 48px;
+  font-size: 1.125rem; 
+}
+
+.size-xl {
+  width: 56px; 
+  height: 56px;
+  font-size: 1.25rem; 
+}
+
