@@ -76,12 +76,12 @@ export const ProjectsSection: React.FC<ProjectSectionProps> = ({initialVisible =
           <p className="section-subtitle">{t.latestWork}</p>
         </div>
         
-        <a href="/projects" className="view-all-link">
+        <Link to={"/projects"} className="view-all-link">
           <span>{t.view_all_btn}</span>
           <svg className="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M7 17l9.2-9.2M17 17V7H7"/>
           </svg>
-        </a>
+        </Link>
       </div>}
 
       <div className="projects-preview-grid">
