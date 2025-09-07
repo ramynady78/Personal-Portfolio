@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                 <li><Link to="/about">{t.about}</Link></li>
                 <li><Link to="/skills">{t.skills}</Link></li>
                 <li><Link to="/projects">{t.portfolio}</Link></li>
-                <li><Link to="/contect">{t.contact}</Link></li>
+                <li><Link to="/contact">{t.contact}</Link></li>
             </ul>
           </div>
 

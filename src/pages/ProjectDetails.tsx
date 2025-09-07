@@ -1,6 +1,6 @@
 import projects from "../data/projects";
 import "../styles/project-details.css";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "../components/TranslationContext";
 import { Cpu, FileText, Home, Image, ListChecks } from "lucide-react";
@@ -23,7 +23,7 @@ export const ProjectDetails: React.FC = () => {
         return (
             <div className="project-not-found">
                 <h1>Project not found</h1>
-                <a href="/projects" className="back-link">← Back to Projects</a>
+                <Link to={"/projects"} className="back-link">← Back to Projects</Link>
             </div>
         );
     }
@@ -80,7 +80,7 @@ export const ProjectDetails: React.FC = () => {
                 <div className="hero-content">
                     <div className="hero-text">
                         <div className="breadcrumb">
-                            <a href="/projects">Projects</a>
+                            <Link to={"/projects"}>Projects</Link>
                             <span>/</span>
                             <span>{project.title}</span>
                         </div>
@@ -278,12 +278,12 @@ export const ProjectDetails: React.FC = () => {
                             {t["view-source"]}
                         </a>
                         
-                        <a href="/projects" className="action-btn tertiary">
+                        <Link to={"/projects"} className="action-btn tertiary">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                 <path d="M19 12H5m7-7-7 7 7 7"/>
                             </svg>
                             {t["back-to-projects"]}
-                        </a>
+                        </Link>
                     </div>
                 </section>
             </div>
